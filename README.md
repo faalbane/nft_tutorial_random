@@ -3,6 +3,7 @@
 2. Each NFT to have a "rarity" 
 3. People pay to mint random dogs 
 <br /><br />
+
 Boilerplate: https://github.com/smartcontractkit/full-blockchain-solidity-course-js#lesson-9-hardhat-smart-contract-lottery 
 
 <br /><br /><br />
@@ -25,7 +26,18 @@ yarn hardhat compile
 <br /><br />
 npm install --save-dev @openzeppelin/contracts 
 <br /><br />
-
+https://docs.chain.link/ethereum/ 
+<br /><br /> 
+https://docs.chain.link/docs/get-a-random-number/ 
+<br /><br />  
+Chainlink reference: requestRandomWords(), 'request a puppy'
+<br /><br /> 
+Chainlink reference: fulfillRandomWords(), 'mint a puppy' 
+<br /><br /> 
+yarn add @chainlink/contracts 
+<br /><br /> 
+'gas lanes': 'how much gas is max for getting a random number', 'if gas if more than 500 gwei...', 'allows to be careful about gas prices at time of minting' 
+<br /><br /> 
 
 
 
