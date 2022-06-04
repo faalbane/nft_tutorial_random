@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/faalbane/wl/nft_workshop_random/contracts/RandomIpfsNft.sol": {
+      "lastModificationDate": 1654349197441,
+      "contentHash": "a176312ab37d72b6ff88c9b595496318",
+      "sourceName": "contracts/RandomIpfsNft.sol",
+      "solcConfig": {
+        "version": "0.8.7",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "RandomIpfsNft"
+      ]
+    }
+  }
+}
